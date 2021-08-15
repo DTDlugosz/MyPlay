@@ -32,10 +32,23 @@ public class BankAccount {
     }
 
     //---------------------------------------------------------------
+    public String getName(){
+        return this.name;
+    }
+
+    //---------------------------------------------------------------
+    public String getSurname(){
+        return this.surname;
+    }
+    //---------------------------------------------------------------
+    public String getId(){
+        return this.id;
+    }
+
 
     @Override
     public String toString(){
-        return "ID: " + this.id + " |NAME: " + this.name + " |SURNAME: " + this.surname + " |BALANCE: " + this.balance;
+        return this.id + " " + this.name + " " + this.surname + " " + this.balance;
     }
 
     //---------------------------------------------------------------

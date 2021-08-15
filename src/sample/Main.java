@@ -14,6 +14,19 @@ public class Main {
         database.add(b2);
         database.add(b3);
 
-        database.printCustomers();
+
+
+
+        System.out.println("Search:");
+        System.out.println(database.printSearch("Tom","xx"));
+        System.out.println();
+
+        System.out.println(database.withdraw("Tom","Smith",10));
+        System.out.println();
+
+        System.out.println("Search:");
+        System.out.println(database.printSearch("Tom","xx"));
+        System.out.println();
+
     }
 }
