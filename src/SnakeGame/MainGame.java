@@ -1,2 +1,9 @@
-package SnakeGame;public class MainGame {
+package SnakeGame;
+
+public class MainGame {
+    public static void main(String[] args) {
+
+        GameFrame frame = new GameFrame();
+
+    }
 }
